@@ -1,0 +1,14 @@
+#!/bin/env node
+"use strict";
+
+var main = require('../lib');
+
+main(process.argv[2], process.argv[3])
+  .catch(function(err) {
+    console.error(err);
+  })
+  .then(function() {
+  console.log('then');
+  console.log(arguments)
+  });
+

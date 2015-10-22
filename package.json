@@ -1,0 +1,25 @@
+{
+  "name": "music-standalone",
+  "version": "0.0.0",
+  "description": "Standalone VLC controller for amoki-music",
+  "main": "/lib",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Amoki/music-standalone.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Amoki/music-standalone/issues"
+  },
+  "homepage": "https://github.com/Amoki/music-standalone",
+  "dependencies": {
+    "co": "^4.6.0",
+    "co-request": "^1.0.0",
+    "co-wait": "0.0.0",
+    "websocket": "^1.0.22"
+  }
+}

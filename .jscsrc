@@ -1,4 +1,5 @@
 {
+    "esnext": true,
     "fileExtensions": [ ".js", "jscs"],
     "disallowSpaceAfterKeywords": ["if", "for"],
     "disallowSpacesInNamedFunctionExpression": {
@@ -34,5 +35,7 @@
     "validateParameterSeparator": ", ",
     "validateIndentation": 2,
 
-    "safeContextKeyword": ["self"]
+    "safeContextKeyword": ["self"],
+
+    "excludeFiles": ["node_modules/**", "src/admin/static"]
 }

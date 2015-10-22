@@ -1,5 +1,5 @@
 {
-  "bitwise"       : true,
+  "bitwise"       : false,
   "curly"         : true,
   "eqeqeq"        : true,
   "immed"         : true,
@@ -21,7 +21,7 @@
   "debug"         : false,
   "eqnull"        : false,
   "es5"           : false,
-  "esnext"        : false,
+  "esnext"        : true,
   "evil"          : false,
   "expr"          : true,
   "forin"         : false,
@@ -47,7 +47,7 @@
   "couch"         : false,
   "devel"         : false,
   "dojo"          : false,
-  "jquery"        : false,
+  "jquery"        : true,
   "mootools"      : false,
   "node"          : true,
   "nonstandard"   : false,
@@ -65,6 +65,7 @@
     "describe",
     "it",
     "after",
+    "afterEach",
     "before",
     "beforeEach"
   ],
