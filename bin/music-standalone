@@ -8,6 +8,6 @@ main(process.argv[2], process.argv[3])
     console.error(err);
   })
   .then(function() {
-  console.log(arguments)
+  console.log('Enjoy the music!');
   });
 
