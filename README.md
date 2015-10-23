@@ -3,9 +3,7 @@ Music-standalone
 
 Music-standalone is a client for Amoki-Music based on VLC.
 
-
-# How to use
-
+## How to use
 ```
 npm install
 npm start "ROOM" "PASSWORD"
